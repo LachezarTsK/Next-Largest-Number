@@ -36,8 +36,8 @@ public class Solution {
   }
 
   /**
-   * Finds the digit with least 'place value', which 'numeric value' is also less than the 
-   * 'numeric value' of its direct neighbour to the right.
+   * Finds the digit with least 'place value', which 'numeric value' is also less than 
+   * the 'numeric value' of its direct neighbour to the right.
    *
    * Example: 12187465 
    *         '4' => digit with least 'place value' and 'numeric value' less than 
