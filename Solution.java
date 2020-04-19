@@ -114,8 +114,7 @@ public class Solution {
     }
 
     /**
-    * Appends to result all the digits after after the swapped digit to the left, 
-    * in increasingn order.
+    * Sets all the digits after after the swapped digit to the left, in increasingn order.
     */
     int index_sorted = index_leftSwap + 1;
     for (int i = 0; i < 10; i++) {
