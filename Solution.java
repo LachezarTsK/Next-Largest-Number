@@ -10,18 +10,18 @@ public class Solution {
     BigInteger inputNumber = scanner.nextBigInteger();
     scanner.close();
     
-    BigInteger result = nextLargestInteger(inputNumber);
+    BigInteger result = nextLargestPositiveInteger(inputNumber);
     System.out.println(result);
   }
 
   /**
-   * Finds the next largest integer to the input integer by rearanging the digits of it.
+   * Finds the next largest positive integer to the input integer by rearanging the digits of it.
    *
    * @return An integer representing the next largest integer to the input integer. 
    *         If it is not possible to rearrange the digits for a larger integer, 
    *         then the input integer is returned.
    */
-  public static BigInteger nextLargestInteger(BigInteger inputNumber) {
+  public static BigInteger nextLargestPositiveInteger(BigInteger inputNumber) {
     num_toString = inputNumber.toString();
 
     int index_leftSwap = findDigit_leastPlaceValue_andNumericValue_lessThanRightNeigbour();
