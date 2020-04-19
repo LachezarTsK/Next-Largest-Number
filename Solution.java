@@ -36,8 +36,8 @@ public class Solution {
   }
 
   /**
-   * Finds the digit with least 'place value', which 'numeric value' is also less than the 'numeric
-   * value' of its direct neighbour to the right.
+   * Finds the digit with least 'place value', which 'numeric value' is also less than the 
+   * 'numeric value' of its direct neighbour to the right.
    *
    * Example: 12187465 
    *         '4' => digit with least 'place value' and 'numeric value' less than 
@@ -63,12 +63,12 @@ public class Solution {
   /**
    * Having established the left swap digit, find the most suitable right swap digit.
    *
-   * The most suitable swap digit to the right is this digit where: 
+   * The most suitable swap digit to the right is this digit, where: 
    * 'left swap digit' < 'digit to the right' 
    *  and 
    * 'digit to the right' - 'left swap digit' is minimum.
    *
-   * Example: 112651 => leftSwap: 2, (6-2)=4, (5-2)=1, rightSwap: 5.
+   * Example: 112651 => leftSwap: 2, (6-2)=4, (5-2)=3, rightSwap: 5.
    *
    * @return An integer, representing the index of the most suitable swap digit to the right.
    */
