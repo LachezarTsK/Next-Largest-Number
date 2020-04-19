@@ -106,7 +106,7 @@ public class Solution {
     result.setCharAt(index_rightSwap, num_toString.charAt(index_leftSwap));
 
     /**
-    * Store number of occurences of all digits after the swapped digit to the left.
+    * Stores number of occurences of all digits after the swapped digit to the left.
     */
     int[] digits = new int[10];
     for (int i = index_leftSwap + 1; i < num_toString.length(); i++) {
@@ -114,7 +114,7 @@ public class Solution {
     }
 
     /**
-    * Append to result all the digits after after the swapped digit to the left, 
+    * Appends to result all the digits after after the swapped digit to the left, 
     * in increasingn order.
     */
     int index_sorted = index_leftSwap + 1;
